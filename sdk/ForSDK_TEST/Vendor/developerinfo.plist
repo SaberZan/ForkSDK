@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SCREEN_DIRECTION</key>
+	<integer>0</integer>
+	<key>CHANNEL_DEFINE</key>
+	<dict>
+		<key>PLATFORM_AISI</key>
+		<real>1001</real>
+		<key>PLATFORM_XY</key>
+		<integer>1002</integer>
+		<key>PLATFORM_HAIMA</key>
+		<real>1003</real>
+		<key>PLATFORM_ITOOLS</key>
+		<real>1004</real>
+		<key>PLATFORM_TONGBU</key>
+		<integer>1005</integer>
+		<key>PLATFORM_BAIDU91</key>
+		<integer>1006</integer>
+		<key>PLATFORM_KUAIYONG</key>
+		<integer>1007</integer>
+		<key>PLATFORM_PP</key>
+		<real>1008</real>
+	</dict>
+	<key>CHANNEL_CODE</key>
+	<real>1008</real>
+</dict>
+</plist>

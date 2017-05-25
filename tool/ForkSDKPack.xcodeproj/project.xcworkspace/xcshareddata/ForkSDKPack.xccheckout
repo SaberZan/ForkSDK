@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EFEE52CC-AE38-4399-8406-9DB7C4B11DE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ForkSDKPack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>093BC5D42F3A6C14282A7ABB9E34B08A3AB7DEF3</key>
+		<string>https://git.oschina.net/xinle_hou/ForkSDKPack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ForkSDKPack.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>093BC5D42F3A6C14282A7ABB9E34B08A3AB7DEF3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/xinle_hou/ForkSDKPack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>093BC5D42F3A6C14282A7ABB9E34B08A3AB7DEF3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>093BC5D42F3A6C14282A7ABB9E34B08A3AB7DEF3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ForkSDKPack</string>
+		</dict>
+	</array>
+</dict>
+</plist>

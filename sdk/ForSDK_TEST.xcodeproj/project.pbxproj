@@ -1,0 +1,1136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CD3AFEBC1BD8D84000099282 /* ForkSDKFrameworkAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CD3AFEBF1BD8D84000099282 /* Build configuration list for PBXAggregateTarget "ForkSDKFrameworkAggregate" */;
+			buildPhases = (
+				CDD4440A1BE066C7003E3C2B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ForkSDKFrameworkAggregate;
+			productName = ForkSDKFrameworkAggregate;
+		};
+		CD3AFEC01BD8D86F00099282 /* ForkSDKLibAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CD3AFEC11BD8D86F00099282 /* Build configuration list for PBXAggregateTarget "ForkSDKLibAggregate" */;
+			buildPhases = (
+				CDD444091BE06677003E3C2B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ForkSDKLibAggregate;
+			productName = ForkSDKLibAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CD01AE851BF5DEB500C13F21 /* PPAppPlatformKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD01AE831BF5DEB500C13F21 /* PPAppPlatformKit.bundle */; };
+		CD01AE861BF5DEB500C13F21 /* PPAppPlatformKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD01AE841BF5DEB500C13F21 /* PPAppPlatformKit.framework */; };
+		CD03BD5B1B7B4B9E002FCE9B /* FKEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5A1B7B4B9E002FCE9B /* FKEventListener.m */; };
+		CD03BD661B7B4BED002FCE9B /* HaiMaHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5D1B7B4BED002FCE9B /* HaiMaHelp.m */; };
+		CD03BD671B7B4BED002FCE9B /* ItoolsHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5F1B7B4BED002FCE9B /* ItoolsHelp.m */; };
+		CD03BD681B7B4BED002FCE9B /* PPHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD611B7B4BED002FCE9B /* PPHelp.m */; };
+		CD03BD691B7B4BED002FCE9B /* TbGameHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD631B7B4BED002FCE9B /* TbGameHelp.m */; };
+		CD03BD6A1B7B4BED002FCE9B /* XYHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD651B7B4BED002FCE9B /* XYHelp.m */; };
+		CD03BD711B7B4C10002FCE9B /* FKAspects.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD6C1B7B4C10002FCE9B /* FKAspects.m */; };
+		CD03BD721B7B4C10002FCE9B /* FKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD6E1B7B4C10002FCE9B /* FKHook.m */; };
+		CD03BD731B7B4C10002FCE9B /* FKNetHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD701B7B4C10002FCE9B /* FKNetHelp.m */; };
+		CD0F2A271B74802D009E7FD6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0F2A261B74802D009E7FD6 /* CoreLocation.framework */; };
+		CD0F2A2D1B748F29009E7FD6 /* KuaiYongHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0F2A2C1B748F29009E7FD6 /* KuaiYongHelp.mm */; };
+		CD1C51BE1BDA2AFA00F9C073 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1C51BD1BDA2AFA00F9C073 /* Default-568h@2x.png */; };
+		CD8F51171BDA0F9300F86D9A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8F51161BDA0F9300F86D9A /* libxml2.tbd */; };
+		CD8F51191BDA0FB200F86D9A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8F51181BDA0FB200F86D9A /* CoreText.framework */; };
+		CD8F511B1BDA0FCA00F86D9A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8F511A1BDA0FCA00F86D9A /* CoreData.framework */; };
+		CD98F7DD1BDA2C9500BA6FE6 /* developerinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD98F7DC1BDA2C9500BA6FE6 /* developerinfo.plist */; };
+		CDB8DF2E1B730706003BAA78 /* ASHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF0D1B730706003BAA78 /* ASHelp.mm */; };
+		CDB8DF311B730706003BAA78 /* FKBasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF131B730706003BAA78 /* FKBasePlatform.m */; };
+		CDB8DF321B730706003BAA78 /* FKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF151B730706003BAA78 /* FKConfig.m */; };
+		CDB8DF331B730706003BAA78 /* FKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF171B730706003BAA78 /* FKDataManager.m */; };
+		CDB8DF381B730706003BAA78 /* FKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF221B730706003BAA78 /* FKProgressHUD.m */; };
+		CDB8DF391B730706003BAA78 /* FKUrlParHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF251B730706003BAA78 /* FKUrlParHelp.m */; };
+		CDB8DF3A1B730706003BAA78 /* FKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF271B730706003BAA78 /* FKUser.m */; };
+		CDB8DF3B1B730706003BAA78 /* ForkSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF291B730706003BAA78 /* ForkSDK.m */; };
+		CDD443EF1BE06599003E3C2B /* LHWBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD689261BD73CEB009E19BB /* LHWBase64.m */; };
+		CDD443F01BE06599003E3C2B /* FKAspects.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD6C1B7B4C10002FCE9B /* FKAspects.m */; };
+		CDD443F11BE06599003E3C2B /* FKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD6E1B7B4C10002FCE9B /* FKHook.m */; };
+		CDD443F21BE06599003E3C2B /* FKNetHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD701B7B4C10002FCE9B /* FKNetHelp.m */; };
+		CDD443F31BE06599003E3C2B /* FKEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5A1B7B4B9E002FCE9B /* FKEventListener.m */; };
+		CDD443F41BE06599003E3C2B /* FKUrlParHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF251B730706003BAA78 /* FKUrlParHelp.m */; };
+		CDD443F51BE06599003E3C2B /* Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF3B1F1B7504AF0070956A /* Cryptor.m */; };
+		CDD443F61BE06599003E3C2B /* FKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF221B730706003BAA78 /* FKProgressHUD.m */; };
+		CDD443F71BE06599003E3C2B /* FKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF151B730706003BAA78 /* FKConfig.m */; };
+		CDD443F81BE06599003E3C2B /* FKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF271B730706003BAA78 /* FKUser.m */; };
+		CDD443F91BE06599003E3C2B /* FKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF171B730706003BAA78 /* FKDataManager.m */; };
+		CDD443FA1BE06599003E3C2B /* FKBasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF131B730706003BAA78 /* FKBasePlatform.m */; };
+		CDD443FB1BE06599003E3C2B /* HaiMaHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5D1B7B4BED002FCE9B /* HaiMaHelp.m */; };
+		CDD443FC1BE06599003E3C2B /* ItoolsHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5F1B7B4BED002FCE9B /* ItoolsHelp.m */; };
+		CDD443FD1BE06599003E3C2B /* PPHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD611B7B4BED002FCE9B /* PPHelp.m */; };
+		CDD443FE1BE06599003E3C2B /* TbGameHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD631B7B4BED002FCE9B /* TbGameHelp.m */; };
+		CDD443FF1BE06599003E3C2B /* XYHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD651B7B4BED002FCE9B /* XYHelp.m */; };
+		CDD444001BE06599003E3C2B /* KuaiYongHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0F2A2C1B748F29009E7FD6 /* KuaiYongHelp.mm */; };
+		CDD444011BE06599003E3C2B /* Baidu91Help.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE72101B744B9600EFB279 /* Baidu91Help.m */; };
+		CDD444021BE06599003E3C2B /* ASHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF0D1B730706003BAA78 /* ASHelp.mm */; };
+		CDD444031BE06599003E3C2B /* ForkSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF291B730706003BAA78 /* ForkSDK.m */; };
+		CDD444051BE065B5003E3C2B /* ForkSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF281B730706003BAA78 /* ForkSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD444061BE065B9003E3C2B /* FKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF261B730706003BAA78 /* FKUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD444071BE065BE003E3C2B /* FKProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF231B730706003BAA78 /* FKProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD444081BE0661A003E3C2B /* LHWBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD689261BD73CEB009E19BB /* LHWBase64.m */; };
+		CDD688F31BD493BF009E19BB /* FKAspects.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD6C1B7B4C10002FCE9B /* FKAspects.m */; };
+		CDD688F41BD493BF009E19BB /* FKHook.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD6E1B7B4C10002FCE9B /* FKHook.m */; };
+		CDD688F51BD493BF009E19BB /* FKNetHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD701B7B4C10002FCE9B /* FKNetHelp.m */; };
+		CDD688F61BD493BF009E19BB /* FKEventListener.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5A1B7B4B9E002FCE9B /* FKEventListener.m */; };
+		CDD688F71BD493BF009E19BB /* FKUrlParHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF251B730706003BAA78 /* FKUrlParHelp.m */; };
+		CDD688F81BD493BF009E19BB /* Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF3B1F1B7504AF0070956A /* Cryptor.m */; };
+		CDD688F91BD493BF009E19BB /* FKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF221B730706003BAA78 /* FKProgressHUD.m */; };
+		CDD688FA1BD493BF009E19BB /* FKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF151B730706003BAA78 /* FKConfig.m */; };
+		CDD688FC1BD493BF009E19BB /* FKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF271B730706003BAA78 /* FKUser.m */; };
+		CDD688FD1BD493BF009E19BB /* FKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF171B730706003BAA78 /* FKDataManager.m */; };
+		CDD688FE1BD493BF009E19BB /* FKBasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF131B730706003BAA78 /* FKBasePlatform.m */; };
+		CDD688FF1BD493BF009E19BB /* HaiMaHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5D1B7B4BED002FCE9B /* HaiMaHelp.m */; };
+		CDD689001BD493BF009E19BB /* ItoolsHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD5F1B7B4BED002FCE9B /* ItoolsHelp.m */; };
+		CDD689011BD493BF009E19BB /* PPHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD611B7B4BED002FCE9B /* PPHelp.m */; };
+		CDD689021BD493BF009E19BB /* TbGameHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD631B7B4BED002FCE9B /* TbGameHelp.m */; };
+		CDD689031BD493BF009E19BB /* XYHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03BD651B7B4BED002FCE9B /* XYHelp.m */; };
+		CDD689041BD493BF009E19BB /* KuaiYongHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0F2A2C1B748F29009E7FD6 /* KuaiYongHelp.mm */; };
+		CDD689051BD493BF009E19BB /* Baidu91Help.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE72101B744B9600EFB279 /* Baidu91Help.m */; };
+		CDD689061BD493BF009E19BB /* ASHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF0D1B730706003BAA78 /* ASHelp.mm */; };
+		CDD689071BD493DD009E19BB /* ForkSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8DF291B730706003BAA78 /* ForkSDK.m */; };
+		CDD689081BD4946C009E19BB /* FKAspects.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD6B1B7B4C10002FCE9B /* FKAspects.h */; };
+		CDD689091BD4946C009E19BB /* FKHook.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD6D1B7B4C10002FCE9B /* FKHook.h */; };
+		CDD6890A1BD4946C009E19BB /* FKNetHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD6F1B7B4C10002FCE9B /* FKNetHelp.h */; };
+		CDD6890B1BD4946C009E19BB /* FKEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD591B7B4B9E002FCE9B /* FKEventListener.h */; };
+		CDD6890C1BD4946C009E19BB /* FKUrlParHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF241B730706003BAA78 /* FKUrlParHelp.h */; };
+		CDD6890D1BD4946C009E19BB /* Cryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFF3B1E1B7504AF0070956A /* Cryptor.h */; };
+		CDD6890E1BD4946C009E19BB /* FKProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF211B730706003BAA78 /* FKProgressHUD.h */; };
+		CDD6890F1BD4946C009E19BB /* FKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF141B730706003BAA78 /* FKConfig.h */; };
+		CDD689111BD4946C009E19BB /* FKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF261B730706003BAA78 /* FKUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD689121BD4946C009E19BB /* FKDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF161B730706003BAA78 /* FKDataManager.h */; };
+		CDD689141BD4946C009E19BB /* FKProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF231B730706003BAA78 /* FKProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD689151BD4946C009E19BB /* FKBasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2996E31B74BB370056615D /* FKBasePlatform.h */; };
+		CDD689161BD4946C009E19BB /* HaiMaHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD5C1B7B4BED002FCE9B /* HaiMaHelp.h */; };
+		CDD689171BD4946C009E19BB /* ItoolsHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD5E1B7B4BED002FCE9B /* ItoolsHelp.h */; };
+		CDD689181BD4946C009E19BB /* PPHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD601B7B4BED002FCE9B /* PPHelp.h */; };
+		CDD689191BD4946C009E19BB /* TbGameHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD621B7B4BED002FCE9B /* TbGameHelp.h */; };
+		CDD6891A1BD4946C009E19BB /* XYHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03BD641B7B4BED002FCE9B /* XYHelp.h */; };
+		CDD6891B1BD4946C009E19BB /* KuaiYongHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0F2A2B1B748F29009E7FD6 /* KuaiYongHelp.h */; };
+		CDD6891C1BD4946C009E19BB /* Baidu91Help.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFE720F1B744B9600EFB279 /* Baidu91Help.h */; };
+		CDD6891D1BD4946C009E19BB /* ASHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF0C1B730706003BAA78 /* ASHelp.h */; };
+		CDD6891E1BD4946C009E19BB /* ForkSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB8DF281B730706003BAA78 /* ForkSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD689271BD73CEB009E19BB /* LHWBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD689261BD73CEB009E19BB /* LHWBase64.m */; };
+		CDD689631BD79603009E19BB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD689611BD795C8009E19BB /* libc++.tbd */; };
+		CDD689641BD79608009E19BB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6895F1BD795BE009E19BB /* libsqlite3.tbd */; };
+		CDD689661BD79636009E19BB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD689651BD79636009E19BB /* libz.tbd */; };
+		CDD689681BD7963A009E19BB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD689671BD7963A009E19BB /* libstdc++.tbd */; };
+		CDD6896A1BD796A0009E19BB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD689691BD796A0009E19BB /* IOKit.framework */; };
+		CDF7CE301B563309004CBCFC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7CE2F1B563309004CBCFC /* AdSupport.framework */; };
+		CDF7CE501B5654DD004CBCFC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7CE4F1B5654DC004CBCFC /* AssetsLibrary.framework */; };
+		CDF7CE521B5654E5004CBCFC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7CE511B5654E5004CBCFC /* MessageUI.framework */; };
+		CDF7CE541B5654ED004CBCFC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7CE531B5654ED004CBCFC /* QuartzCore.framework */; };
+		CDF7CE561B5654F6004CBCFC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7CE551B5654F6004CBCFC /* AddressBook.framework */; };
+		CDF7CE581B565500004CBCFC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7CE571B565500004CBCFC /* CoreTelephony.framework */; };
+		CDF7CE761B566365004CBCFC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7CE751B566365004CBCFC /* MobileCoreServices.framework */; };
+		CDFA8D6C1B54EC3A0046B13F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFA8D6B1B54EC3A0046B13F /* SystemConfiguration.framework */; };
+		CDFA8D6E1B54EC400046B13F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFA8D6D1B54EC400046B13F /* AudioToolbox.framework */; };
+		CDFA8D701B54EC460046B13F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFA8D6F1B54EC460046B13F /* MediaPlayer.framework */; };
+		CDFA8D721B54EC4C0046B13F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFA8D711B54EC4C0046B13F /* AVFoundation.framework */; };
+		CDFA8D741B54EC540046B13F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFA8D731B54EC540046B13F /* Security.framework */; };
+		CDFA8D761B54EC580046B13F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFA8D751B54EC580046B13F /* CFNetwork.framework */; };
+		CDFB02761B54D93C00F72D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB02751B54D93C00F72D91 /* main.m */; };
+		CDFB02791B54D93C00F72D91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB02781B54D93C00F72D91 /* AppDelegate.m */; };
+		CDFB027C1B54D93C00F72D91 /* FKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFB027B1B54D93C00F72D91 /* FKViewController.m */; };
+		CDFE72111B744B9600EFB279 /* Baidu91Help.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFE72101B744B9600EFB279 /* Baidu91Help.m */; };
+		CDFF3B201B7504AF0070956A /* Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFF3B1F1B7504AF0070956A /* Cryptor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD24094C1BE0C7B300F57992 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 11;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD688E81BD49375009E19BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD01AE831BF5DEB500C13F21 /* PPAppPlatformKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PPAppPlatformKit.bundle; sourceTree = "<group>"; };
+		CD01AE841BF5DEB500C13F21 /* PPAppPlatformKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PPAppPlatformKit.framework; sourceTree = "<group>"; };
+		CD01AE881BF5F2A200C13F21 /* PPAppPlatformKitDylib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PPAppPlatformKitDylib.framework; path = PPAppPlatformKit.bundle/PPAppPlatformKitDylib.framework; sourceTree = "<group>"; };
+		CD03BD591B7B4B9E002FCE9B /* FKEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKEventListener.h; sourceTree = "<group>"; };
+		CD03BD5A1B7B4B9E002FCE9B /* FKEventListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKEventListener.m; sourceTree = "<group>"; };
+		CD03BD5C1B7B4BED002FCE9B /* HaiMaHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaiMaHelp.h; sourceTree = "<group>"; };
+		CD03BD5D1B7B4BED002FCE9B /* HaiMaHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaiMaHelp.m; sourceTree = "<group>"; };
+		CD03BD5E1B7B4BED002FCE9B /* ItoolsHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItoolsHelp.h; sourceTree = "<group>"; };
+		CD03BD5F1B7B4BED002FCE9B /* ItoolsHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItoolsHelp.m; sourceTree = "<group>"; };
+		CD03BD601B7B4BED002FCE9B /* PPHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHelp.h; sourceTree = "<group>"; };
+		CD03BD611B7B4BED002FCE9B /* PPHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHelp.m; sourceTree = "<group>"; };
+		CD03BD621B7B4BED002FCE9B /* TbGameHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbGameHelp.h; sourceTree = "<group>"; };
+		CD03BD631B7B4BED002FCE9B /* TbGameHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbGameHelp.m; sourceTree = "<group>"; };
+		CD03BD641B7B4BED002FCE9B /* XYHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYHelp.h; sourceTree = "<group>"; };
+		CD03BD651B7B4BED002FCE9B /* XYHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYHelp.m; sourceTree = "<group>"; };
+		CD03BD6B1B7B4C10002FCE9B /* FKAspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKAspects.h; sourceTree = "<group>"; };
+		CD03BD6C1B7B4C10002FCE9B /* FKAspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKAspects.m; sourceTree = "<group>"; };
+		CD03BD6D1B7B4C10002FCE9B /* FKHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKHook.h; sourceTree = "<group>"; };
+		CD03BD6E1B7B4C10002FCE9B /* FKHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKHook.m; sourceTree = "<group>"; };
+		CD03BD6F1B7B4C10002FCE9B /* FKNetHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKNetHelp.h; sourceTree = "<group>"; };
+		CD03BD701B7B4C10002FCE9B /* FKNetHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKNetHelp.m; sourceTree = "<group>"; };
+		CD0F2A261B74802D009E7FD6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD0F2A2B1B748F29009E7FD6 /* KuaiYongHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KuaiYongHelp.h; sourceTree = "<group>"; };
+		CD0F2A2C1B748F29009E7FD6 /* KuaiYongHelp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KuaiYongHelp.mm; sourceTree = "<group>"; };
+		CD1C51BD1BDA2AFA00F9C073 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD2996E31B74BB370056615D /* FKBasePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKBasePlatform.h; sourceTree = "<group>"; };
+		CD8F51161BDA0F9300F86D9A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		CD8F51181BDA0FB200F86D9A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CD8F511A1BDA0FCA00F86D9A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD98F7DC1BDA2C9500BA6FE6 /* developerinfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = developerinfo.plist; sourceTree = "<group>"; };
+		CDB8DF0C1B730706003BAA78 /* ASHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHelp.h; sourceTree = "<group>"; };
+		CDB8DF0D1B730706003BAA78 /* ASHelp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASHelp.mm; sourceTree = "<group>"; };
+		CDB8DF131B730706003BAA78 /* FKBasePlatform.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = FKBasePlatform.m; sourceTree = "<group>"; };
+		CDB8DF141B730706003BAA78 /* FKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKConfig.h; sourceTree = "<group>"; };
+		CDB8DF151B730706003BAA78 /* FKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKConfig.m; sourceTree = "<group>"; };
+		CDB8DF161B730706003BAA78 /* FKDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKDataManager.h; sourceTree = "<group>"; };
+		CDB8DF171B730706003BAA78 /* FKDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKDataManager.m; sourceTree = "<group>"; };
+		CDB8DF1C1B730706003BAA78 /* FKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKMacro.h; sourceTree = "<group>"; };
+		CDB8DF211B730706003BAA78 /* FKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKProgressHUD.h; sourceTree = "<group>"; };
+		CDB8DF221B730706003BAA78 /* FKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKProgressHUD.m; sourceTree = "<group>"; };
+		CDB8DF231B730706003BAA78 /* FKProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKProtocol.h; sourceTree = "<group>"; };
+		CDB8DF241B730706003BAA78 /* FKUrlParHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKUrlParHelp.h; sourceTree = "<group>"; };
+		CDB8DF251B730706003BAA78 /* FKUrlParHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKUrlParHelp.m; sourceTree = "<group>"; };
+		CDB8DF261B730706003BAA78 /* FKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKUser.h; sourceTree = "<group>"; };
+		CDB8DF271B730706003BAA78 /* FKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKUser.m; sourceTree = "<group>"; };
+		CDB8DF281B730706003BAA78 /* ForkSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForkSDK.h; sourceTree = "<group>"; };
+		CDB8DF291B730706003BAA78 /* ForkSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForkSDK.m; sourceTree = "<group>"; };
+		CDBF28D11BD48D91004B2DD3 /* ForkSDKFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForkSDKFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBF28D51BD48D91004B2DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD688EA1BD49375009E19BB /* libLibForkSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibForkSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD689251BD73CEB009E19BB /* LHWBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHWBase64.h; sourceTree = "<group>"; };
+		CDD689261BD73CEB009E19BB /* LHWBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHWBase64.m; sourceTree = "<group>"; };
+		CDD6895F1BD795BE009E19BB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CDD689611BD795C8009E19BB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CDD689651BD79636009E19BB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CDD689671BD7963A009E19BB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		CDD689691BD796A0009E19BB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		CDF7CE2F1B563309004CBCFC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CDF7CE4F1B5654DC004CBCFC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CDF7CE511B5654E5004CBCFC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CDF7CE531B5654ED004CBCFC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDF7CE551B5654F6004CBCFC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CDF7CE571B565500004CBCFC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CDF7CE751B566365004CBCFC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CDFA8D6B1B54EC3A0046B13F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDFA8D6D1B54EC400046B13F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CDFA8D6F1B54EC460046B13F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CDFA8D711B54EC4C0046B13F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDFA8D731B54EC540046B13F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CDFA8D751B54EC580046B13F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CDFB02701B54D93C00F72D91 /* ForSDK_TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForSDK_TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFB02741B54D93C00F72D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFB02751B54D93C00F72D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFB02771B54D93C00F72D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDFB02781B54D93C00F72D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDFB027A1B54D93C00F72D91 /* FKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKViewController.h; sourceTree = "<group>"; };
+		CDFB027B1B54D93C00F72D91 /* FKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKViewController.m; sourceTree = "<group>"; };
+		CDFE720F1B744B9600EFB279 /* Baidu91Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baidu91Help.h; sourceTree = "<group>"; };
+		CDFE72101B744B9600EFB279 /* Baidu91Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baidu91Help.m; sourceTree = "<group>"; };
+		CDFF3B1E1B7504AF0070956A /* Cryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cryptor.h; sourceTree = "<group>"; };
+		CDFF3B1F1B7504AF0070956A /* Cryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cryptor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBF28CD1BD48D91004B2DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD688E71BD49375009E19BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFB026D1B54D93C00F72D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8F511B1BDA0FCA00F86D9A /* CoreData.framework in Frameworks */,
+				CD8F51191BDA0FB200F86D9A /* CoreText.framework in Frameworks */,
+				CD01AE861BF5DEB500C13F21 /* PPAppPlatformKit.framework in Frameworks */,
+				CD8F51171BDA0F9300F86D9A /* libxml2.tbd in Frameworks */,
+				CDD689681BD7963A009E19BB /* libstdc++.tbd in Frameworks */,
+				CDD689661BD79636009E19BB /* libz.tbd in Frameworks */,
+				CDD689641BD79608009E19BB /* libsqlite3.tbd in Frameworks */,
+				CDD689631BD79603009E19BB /* libc++.tbd in Frameworks */,
+				CDD6896A1BD796A0009E19BB /* IOKit.framework in Frameworks */,
+				CD0F2A271B74802D009E7FD6 /* CoreLocation.framework in Frameworks */,
+				CDF7CE761B566365004CBCFC /* MobileCoreServices.framework in Frameworks */,
+				CDFA8D761B54EC580046B13F /* CFNetwork.framework in Frameworks */,
+				CDF7CE581B565500004CBCFC /* CoreTelephony.framework in Frameworks */,
+				CDF7CE561B5654F6004CBCFC /* AddressBook.framework in Frameworks */,
+				CDF7CE541B5654ED004CBCFC /* QuartzCore.framework in Frameworks */,
+				CDF7CE521B5654E5004CBCFC /* MessageUI.framework in Frameworks */,
+				CDF7CE501B5654DD004CBCFC /* AssetsLibrary.framework in Frameworks */,
+				CDF7CE301B563309004CBCFC /* AdSupport.framework in Frameworks */,
+				CDFA8D741B54EC540046B13F /* Security.framework in Frameworks */,
+				CDFA8D721B54EC4C0046B13F /* AVFoundation.framework in Frameworks */,
+				CDFA8D701B54EC460046B13F /* MediaPlayer.framework in Frameworks */,
+				CDFA8D6E1B54EC400046B13F /* AudioToolbox.framework in Frameworks */,
+				CDFA8D6C1B54EC3A0046B13F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD01AE821BF5DEB500C13F21 /* PP */ = {
+			isa = PBXGroup;
+			children = (
+				CD01AE881BF5F2A200C13F21 /* PPAppPlatformKitDylib.framework */,
+				CD01AE831BF5DEB500C13F21 /* PPAppPlatformKit.bundle */,
+				CD01AE841BF5DEB500C13F21 /* PPAppPlatformKit.framework */,
+			);
+			path = PP;
+			sourceTree = "<group>";
+		};
+		CDB8DF0B1B730706003BAA78 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8DF7E1B730BBD003BAA78 /* component */,
+				CDB8DF7D1B730B9F003BAA78 /* view */,
+				CDB8DF7C1B730B99003BAA78 /* model */,
+				CDB8DF7B1B730B86003BAA78 /* protocol */,
+				CDB8DF7A1B730B76003BAA78 /* platform */,
+				CDB8DF281B730706003BAA78 /* ForkSDK.h */,
+				CDB8DF291B730706003BAA78 /* ForkSDK.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CDB8DF7A1B730B76003BAA78 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				CD2996E31B74BB370056615D /* FKBasePlatform.h */,
+				CDB8DF131B730706003BAA78 /* FKBasePlatform.m */,
+				CD03BD5C1B7B4BED002FCE9B /* HaiMaHelp.h */,
+				CD03BD5D1B7B4BED002FCE9B /* HaiMaHelp.m */,
+				CD03BD5E1B7B4BED002FCE9B /* ItoolsHelp.h */,
+				CD03BD5F1B7B4BED002FCE9B /* ItoolsHelp.m */,
+				CD03BD601B7B4BED002FCE9B /* PPHelp.h */,
+				CD03BD611B7B4BED002FCE9B /* PPHelp.m */,
+				CD03BD621B7B4BED002FCE9B /* TbGameHelp.h */,
+				CD03BD631B7B4BED002FCE9B /* TbGameHelp.m */,
+				CD03BD641B7B4BED002FCE9B /* XYHelp.h */,
+				CD03BD651B7B4BED002FCE9B /* XYHelp.m */,
+				CD0F2A2B1B748F29009E7FD6 /* KuaiYongHelp.h */,
+				CD0F2A2C1B748F29009E7FD6 /* KuaiYongHelp.mm */,
+				CDFE720F1B744B9600EFB279 /* Baidu91Help.h */,
+				CDFE72101B744B9600EFB279 /* Baidu91Help.m */,
+				CDB8DF0C1B730706003BAA78 /* ASHelp.h */,
+				CDB8DF0D1B730706003BAA78 /* ASHelp.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		CDB8DF7B1B730B86003BAA78 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8DF1C1B730706003BAA78 /* FKMacro.h */,
+				CDB8DF231B730706003BAA78 /* FKProtocol.h */,
+			);
+			name = protocol;
+			sourceTree = "<group>";
+		};
+		CDB8DF7C1B730B99003BAA78 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8DF141B730706003BAA78 /* FKConfig.h */,
+				CDB8DF151B730706003BAA78 /* FKConfig.m */,
+				CDB8DF261B730706003BAA78 /* FKUser.h */,
+				CDB8DF271B730706003BAA78 /* FKUser.m */,
+				CDB8DF161B730706003BAA78 /* FKDataManager.h */,
+				CDB8DF171B730706003BAA78 /* FKDataManager.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		CDB8DF7D1B730B9F003BAA78 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CDB8DF211B730706003BAA78 /* FKProgressHUD.h */,
+				CDB8DF221B730706003BAA78 /* FKProgressHUD.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CDB8DF7E1B730BBD003BAA78 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				CDD689251BD73CEB009E19BB /* LHWBase64.h */,
+				CDD689261BD73CEB009E19BB /* LHWBase64.m */,
+				CD03BD6B1B7B4C10002FCE9B /* FKAspects.h */,
+				CD03BD6C1B7B4C10002FCE9B /* FKAspects.m */,
+				CD03BD6D1B7B4C10002FCE9B /* FKHook.h */,
+				CD03BD6E1B7B4C10002FCE9B /* FKHook.m */,
+				CD03BD6F1B7B4C10002FCE9B /* FKNetHelp.h */,
+				CD03BD701B7B4C10002FCE9B /* FKNetHelp.m */,
+				CD03BD591B7B4B9E002FCE9B /* FKEventListener.h */,
+				CD03BD5A1B7B4B9E002FCE9B /* FKEventListener.m */,
+				CDB8DF241B730706003BAA78 /* FKUrlParHelp.h */,
+				CDB8DF251B730706003BAA78 /* FKUrlParHelp.m */,
+				CDFF3B1E1B7504AF0070956A /* Cryptor.h */,
+				CDFF3B1F1B7504AF0070956A /* Cryptor.m */,
+			);
+			name = component;
+			sourceTree = "<group>";
+		};
+		CDBF28D21BD48D91004B2DD3 /* ForkSDKFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CDBF28D51BD48D91004B2DD3 /* Info.plist */,
+			);
+			path = ForkSDKFramework;
+			sourceTree = "<group>";
+		};
+		CDD688EB1BD49375009E19BB /* LibForkSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LibForkSDK;
+			sourceTree = "<group>";
+		};
+		CDFA8D581B54EAF00046B13F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CD01AE821BF5DEB500C13F21 /* PP */,
+				CD98F7DC1BDA2C9500BA6FE6 /* developerinfo.plist */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CDFA8D771B54ECB20046B13F /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F51161BDA0F9300F86D9A /* libxml2.tbd */,
+				CDD689691BD796A0009E19BB /* IOKit.framework */,
+				CDD689671BD7963A009E19BB /* libstdc++.tbd */,
+				CDD689651BD79636009E19BB /* libz.tbd */,
+				CDD689611BD795C8009E19BB /* libc++.tbd */,
+				CDD6895F1BD795BE009E19BB /* libsqlite3.tbd */,
+				CD8F511A1BDA0FCA00F86D9A /* CoreData.framework */,
+				CD8F51181BDA0FB200F86D9A /* CoreText.framework */,
+				CD0F2A261B74802D009E7FD6 /* CoreLocation.framework */,
+				CDF7CE751B566365004CBCFC /* MobileCoreServices.framework */,
+				CDF7CE571B565500004CBCFC /* CoreTelephony.framework */,
+				CDF7CE551B5654F6004CBCFC /* AddressBook.framework */,
+				CDF7CE531B5654ED004CBCFC /* QuartzCore.framework */,
+				CDF7CE511B5654E5004CBCFC /* MessageUI.framework */,
+				CDF7CE4F1B5654DC004CBCFC /* AssetsLibrary.framework */,
+				CDF7CE2F1B563309004CBCFC /* AdSupport.framework */,
+				CDFA8D751B54EC580046B13F /* CFNetwork.framework */,
+				CDFA8D731B54EC540046B13F /* Security.framework */,
+				CDFA8D711B54EC4C0046B13F /* AVFoundation.framework */,
+				CDFA8D6F1B54EC460046B13F /* MediaPlayer.framework */,
+				CDFA8D6D1B54EC400046B13F /* AudioToolbox.framework */,
+				CDFA8D6B1B54EC3A0046B13F /* SystemConfiguration.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		CDFB02671B54D93C00F72D91 = {
+			isa = PBXGroup;
+			children = (
+				CD1C51BD1BDA2AFA00F9C073 /* Default-568h@2x.png */,
+				CDFB02721B54D93C00F72D91 /* ForSDK_TEST */,
+				CDBF28D21BD48D91004B2DD3 /* ForkSDKFramework */,
+				CDD688EB1BD49375009E19BB /* LibForkSDK */,
+				CDFA8D771B54ECB20046B13F /* framework */,
+				CDFB02711B54D93C00F72D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFB02711B54D93C00F72D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB02701B54D93C00F72D91 /* ForSDK_TEST.app */,
+				CDBF28D11BD48D91004B2DD3 /* ForkSDKFramework.framework */,
+				CDD688EA1BD49375009E19BB /* libLibForkSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFB02721B54D93C00F72D91 /* ForSDK_TEST */ = {
+			isa = PBXGroup;
+			children = (
+				CDFA8D581B54EAF00046B13F /* Vendor */,
+				CDB8DF0B1B730706003BAA78 /* Core */,
+				CDFB02771B54D93C00F72D91 /* AppDelegate.h */,
+				CDFB02781B54D93C00F72D91 /* AppDelegate.m */,
+				CDFB027A1B54D93C00F72D91 /* FKViewController.h */,
+				CDFB027B1B54D93C00F72D91 /* FKViewController.m */,
+				CDFB02741B54D93C00F72D91 /* Info.plist */,
+				CDFB02751B54D93C00F72D91 /* main.m */,
+			);
+			path = ForSDK_TEST;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CDBF28CE1BD48D91004B2DD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD689111BD4946C009E19BB /* FKUser.h in Headers */,
+				CDD689141BD4946C009E19BB /* FKProtocol.h in Headers */,
+				CDD6891E1BD4946C009E19BB /* ForkSDK.h in Headers */,
+				CDD689081BD4946C009E19BB /* FKAspects.h in Headers */,
+				CDD689091BD4946C009E19BB /* FKHook.h in Headers */,
+				CDD6890A1BD4946C009E19BB /* FKNetHelp.h in Headers */,
+				CDD6890B1BD4946C009E19BB /* FKEventListener.h in Headers */,
+				CDD6890C1BD4946C009E19BB /* FKUrlParHelp.h in Headers */,
+				CDD6890D1BD4946C009E19BB /* Cryptor.h in Headers */,
+				CDD6890E1BD4946C009E19BB /* FKProgressHUD.h in Headers */,
+				CDD6890F1BD4946C009E19BB /* FKConfig.h in Headers */,
+				CDD689121BD4946C009E19BB /* FKDataManager.h in Headers */,
+				CDD689151BD4946C009E19BB /* FKBasePlatform.h in Headers */,
+				CDD689161BD4946C009E19BB /* HaiMaHelp.h in Headers */,
+				CDD689171BD4946C009E19BB /* ItoolsHelp.h in Headers */,
+				CDD689181BD4946C009E19BB /* PPHelp.h in Headers */,
+				CDD689191BD4946C009E19BB /* TbGameHelp.h in Headers */,
+				CDD6891A1BD4946C009E19BB /* XYHelp.h in Headers */,
+				CDD6891B1BD4946C009E19BB /* KuaiYongHelp.h in Headers */,
+				CDD6891C1BD4946C009E19BB /* Baidu91Help.h in Headers */,
+				CDD6891D1BD4946C009E19BB /* ASHelp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD444041BE065A4003E3C2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD444051BE065B5003E3C2B /* ForkSDK.h in Headers */,
+				CDD444061BE065B9003E3C2B /* FKUser.h in Headers */,
+				CDD444071BE065BE003E3C2B /* FKProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CDBF28D01BD48D91004B2DD3 /* ForkSDKFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBF28DC1BD48D91004B2DD3 /* Build configuration list for PBXNativeTarget "ForkSDKFramework" */;
+			buildPhases = (
+				CDBF28CC1BD48D91004B2DD3 /* Sources */,
+				CDBF28CD1BD48D91004B2DD3 /* Frameworks */,
+				CDBF28CE1BD48D91004B2DD3 /* Headers */,
+				CDBF28CF1BD48D91004B2DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForkSDKFramework;
+			productName = ForkSDKFramework;
+			productReference = CDBF28D11BD48D91004B2DD3 /* ForkSDKFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDD688E91BD49375009E19BB /* LibForkSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD688F01BD49375009E19BB /* Build configuration list for PBXNativeTarget "LibForkSDK" */;
+			buildPhases = (
+				CDD688E61BD49375009E19BB /* Sources */,
+				CDD688E71BD49375009E19BB /* Frameworks */,
+				CDD688E81BD49375009E19BB /* CopyFiles */,
+				CDD444041BE065A4003E3C2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibForkSDK;
+			productName = LibForkSDK;
+			productReference = CDD688EA1BD49375009E19BB /* libLibForkSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CDFB026F1B54D93C00F72D91 /* ForSDK_TEST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFB02931B54D93C00F72D91 /* Build configuration list for PBXNativeTarget "ForSDK_TEST" */;
+			buildPhases = (
+				CDFB026C1B54D93C00F72D91 /* Sources */,
+				CDFB026E1B54D93C00F72D91 /* Resources */,
+				CDFB026D1B54D93C00F72D91 /* Frameworks */,
+				CD24094C1BE0C7B300F57992 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForSDK_TEST;
+			productName = ForSDK_TEST;
+			productReference = CDFB02701B54D93C00F72D91 /* ForSDK_TEST.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFB02681B54D93C00F72D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "xuanyun Technology";
+				TargetAttributes = {
+					CD3AFEBC1BD8D84000099282 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CD3AFEC01BD8D86F00099282 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CDBF28D01BD48D91004B2DD3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CDD688E91BD49375009E19BB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CDFB026F1B54D93C00F72D91 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = RDDG9CRB2K;
+					};
+				};
+			};
+			buildConfigurationList = CDFB026B1B54D93C00F72D91 /* Build configuration list for PBXProject "ForSDK_TEST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFB02671B54D93C00F72D91;
+			productRefGroup = CDFB02711B54D93C00F72D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFB026F1B54D93C00F72D91 /* ForSDK_TEST */,
+				CDBF28D01BD48D91004B2DD3 /* ForkSDKFramework */,
+				CDD688E91BD49375009E19BB /* LibForkSDK */,
+				CD3AFEBC1BD8D84000099282 /* ForkSDKFrameworkAggregate */,
+				CD3AFEC01BD8D86F00099282 /* ForkSDKLibAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBF28CF1BD48D91004B2DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFB026E1B54D93C00F72D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD01AE851BF5DEB500C13F21 /* PPAppPlatformKit.bundle in Resources */,
+				CD1C51BE1BDA2AFA00F9C073 /* Default-568h@2x.png in Resources */,
+				CD98F7DD1BDA2C9500BA6FE6 /* developerinfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDD444091BE06677003E3C2B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\nTARGET_NAME=LibForkSDK\n\n# build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target \"${TARGET_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# create output path\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# merge library\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${TARGET_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${TARGET_NAME}.a\"\n\n# copy and open\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/usr/local/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"";
+		};
+		CDD4440A1BE066C7003E3C2B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=ForkSDKFramework\n#${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# bulid\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${INSTALL_DIR}\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBF28CC1BD48D91004B2DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD444081BE0661A003E3C2B /* LHWBase64.m in Sources */,
+				CDD688F31BD493BF009E19BB /* FKAspects.m in Sources */,
+				CDD688F41BD493BF009E19BB /* FKHook.m in Sources */,
+				CDD688F51BD493BF009E19BB /* FKNetHelp.m in Sources */,
+				CDD688F61BD493BF009E19BB /* FKEventListener.m in Sources */,
+				CDD688F71BD493BF009E19BB /* FKUrlParHelp.m in Sources */,
+				CDD688F81BD493BF009E19BB /* Cryptor.m in Sources */,
+				CDD688F91BD493BF009E19BB /* FKProgressHUD.m in Sources */,
+				CDD689071BD493DD009E19BB /* ForkSDK.m in Sources */,
+				CDD688FA1BD493BF009E19BB /* FKConfig.m in Sources */,
+				CDD688FC1BD493BF009E19BB /* FKUser.m in Sources */,
+				CDD688FD1BD493BF009E19BB /* FKDataManager.m in Sources */,
+				CDD688FE1BD493BF009E19BB /* FKBasePlatform.m in Sources */,
+				CDD688FF1BD493BF009E19BB /* HaiMaHelp.m in Sources */,
+				CDD689001BD493BF009E19BB /* ItoolsHelp.m in Sources */,
+				CDD689011BD493BF009E19BB /* PPHelp.m in Sources */,
+				CDD689021BD493BF009E19BB /* TbGameHelp.m in Sources */,
+				CDD689031BD493BF009E19BB /* XYHelp.m in Sources */,
+				CDD689041BD493BF009E19BB /* KuaiYongHelp.mm in Sources */,
+				CDD689051BD493BF009E19BB /* Baidu91Help.m in Sources */,
+				CDD689061BD493BF009E19BB /* ASHelp.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD688E61BD49375009E19BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD443EF1BE06599003E3C2B /* LHWBase64.m in Sources */,
+				CDD443F01BE06599003E3C2B /* FKAspects.m in Sources */,
+				CDD443F11BE06599003E3C2B /* FKHook.m in Sources */,
+				CDD443F21BE06599003E3C2B /* FKNetHelp.m in Sources */,
+				CDD443F31BE06599003E3C2B /* FKEventListener.m in Sources */,
+				CDD443F41BE06599003E3C2B /* FKUrlParHelp.m in Sources */,
+				CDD443F51BE06599003E3C2B /* Cryptor.m in Sources */,
+				CDD443F61BE06599003E3C2B /* FKProgressHUD.m in Sources */,
+				CDD443F71BE06599003E3C2B /* FKConfig.m in Sources */,
+				CDD443F81BE06599003E3C2B /* FKUser.m in Sources */,
+				CDD443F91BE06599003E3C2B /* FKDataManager.m in Sources */,
+				CDD443FA1BE06599003E3C2B /* FKBasePlatform.m in Sources */,
+				CDD443FB1BE06599003E3C2B /* HaiMaHelp.m in Sources */,
+				CDD443FC1BE06599003E3C2B /* ItoolsHelp.m in Sources */,
+				CDD443FD1BE06599003E3C2B /* PPHelp.m in Sources */,
+				CDD443FE1BE06599003E3C2B /* TbGameHelp.m in Sources */,
+				CDD443FF1BE06599003E3C2B /* XYHelp.m in Sources */,
+				CDD444001BE06599003E3C2B /* KuaiYongHelp.mm in Sources */,
+				CDD444011BE06599003E3C2B /* Baidu91Help.m in Sources */,
+				CDD444021BE06599003E3C2B /* ASHelp.mm in Sources */,
+				CDD444031BE06599003E3C2B /* ForkSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFB026C1B54D93C00F72D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD03BD681B7B4BED002FCE9B /* PPHelp.m in Sources */,
+				CDFB027C1B54D93C00F72D91 /* FKViewController.m in Sources */,
+				CD03BD691B7B4BED002FCE9B /* TbGameHelp.m in Sources */,
+				CDB8DF3B1B730706003BAA78 /* ForkSDK.m in Sources */,
+				CDB8DF3A1B730706003BAA78 /* FKUser.m in Sources */,
+				CDB8DF391B730706003BAA78 /* FKUrlParHelp.m in Sources */,
+				CD03BD711B7B4C10002FCE9B /* FKAspects.m in Sources */,
+				CDFB02791B54D93C00F72D91 /* AppDelegate.m in Sources */,
+				CDB8DF331B730706003BAA78 /* FKDataManager.m in Sources */,
+				CD03BD6A1B7B4BED002FCE9B /* XYHelp.m in Sources */,
+				CDB8DF321B730706003BAA78 /* FKConfig.m in Sources */,
+				CDFE72111B744B9600EFB279 /* Baidu91Help.m in Sources */,
+				CD03BD661B7B4BED002FCE9B /* HaiMaHelp.m in Sources */,
+				CDB8DF2E1B730706003BAA78 /* ASHelp.mm in Sources */,
+				CDD689271BD73CEB009E19BB /* LHWBase64.m in Sources */,
+				CD0F2A2D1B748F29009E7FD6 /* KuaiYongHelp.mm in Sources */,
+				CD03BD5B1B7B4B9E002FCE9B /* FKEventListener.m in Sources */,
+				CD03BD731B7B4C10002FCE9B /* FKNetHelp.m in Sources */,
+				CDB8DF381B730706003BAA78 /* FKProgressHUD.m in Sources */,
+				CD03BD671B7B4BED002FCE9B /* ItoolsHelp.m in Sources */,
+				CDFB02761B54D93C00F72D91 /* main.m in Sources */,
+				CD03BD721B7B4C10002FCE9B /* FKHook.m in Sources */,
+				CDB8DF311B730706003BAA78 /* FKBasePlatform.m in Sources */,
+				CDFF3B201B7504AF0070956A /* Cryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD3AFEBD1BD8D84000099282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3AFEBE1BD8D84000099282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3AFEC21BD8D86F00099282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3AFEC31BD8D86F00099282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDBF28DA1BD48D91004B2DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = ForkSDKFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = sgjm.com.xygame.ky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDBF28DB1BD48D91004B2DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ForkSDKFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = sgjm.com.xygame.ky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDD688F11BD49375009E19BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CDD688F21BD49375009E19BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CDFB02911B54D93C00F72D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFB02921B54D93C00F72D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFB02941B54D93C00F72D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Baidu913.5.1",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/AISI2.0.3",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/XY2.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/tbGame",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Itools2.3.2",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/XYGame2.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/ZHPaySDK1.3.7",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Itools2.5.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/AISI2.1.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/tbGame4.1.2",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PPSDK1.5.5",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/KuaiYongSDK2.2.3",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Baidu913.5.2",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PPSDK1.5.5/PPAppPlatformKit.bundle",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PP",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PP/PPAppPlatformKit.bundle",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = ForSDK_TEST/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/KuaiYongSDK2.2.3",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/XYGame2.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/ZHPaySDK1.3.7",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Itools2.5.0",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xygame.sgjm.hm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		CDFB02951B54D93C00F72D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Baidu913.5.1",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/AISI2.0.3",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/XY2.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/tbGame",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Itools2.3.2",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/XYGame2.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/ZHPaySDK1.3.7",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Itools2.5.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/AISI2.1.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/tbGame4.1.2",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PPSDK1.5.5",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/KuaiYongSDK2.2.3",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Baidu913.5.2",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PPSDK1.5.5/PPAppPlatformKit.bundle",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PP",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/PP/PPAppPlatformKit.bundle",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = ForSDK_TEST/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/KuaiYongSDK2.2.3",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/XYGame2.0",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/ZHPaySDK1.3.7",
+					"$(PROJECT_DIR)/ForSDK_TEST/Vendor/Itools2.5.0",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xygame.sgjm.hm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3AFEBF1BD8D84000099282 /* Build configuration list for PBXAggregateTarget "ForkSDKFrameworkAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3AFEBD1BD8D84000099282 /* Debug */,
+				CD3AFEBE1BD8D84000099282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3AFEC11BD8D86F00099282 /* Build configuration list for PBXAggregateTarget "ForkSDKLibAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3AFEC21BD8D86F00099282 /* Debug */,
+				CD3AFEC31BD8D86F00099282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBF28DC1BD48D91004B2DD3 /* Build configuration list for PBXNativeTarget "ForkSDKFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBF28DA1BD48D91004B2DD3 /* Debug */,
+				CDBF28DB1BD48D91004B2DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD688F01BD49375009E19BB /* Build configuration list for PBXNativeTarget "LibForkSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD688F11BD49375009E19BB /* Debug */,
+				CDD688F21BD49375009E19BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFB026B1B54D93C00F72D91 /* Build configuration list for PBXProject "ForSDK_TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFB02911B54D93C00F72D91 /* Debug */,
+				CDFB02921B54D93C00F72D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFB02931B54D93C00F72D91 /* Build configuration list for PBXNativeTarget "ForSDK_TEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFB02941B54D93C00F72D91 /* Debug */,
+				CDFB02951B54D93C00F72D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFB02681B54D93C00F72D91 /* Project object */;
+}

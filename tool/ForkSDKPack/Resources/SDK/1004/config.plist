@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>name</key>
+            <string>libsqlite3.dylib</string>
+            <key>path</key>
+            <string>usrlib</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>libc++.dylib</string>
+            <key>path</key>
+            <string>usrlib</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>AdSupport.framework</string>
+            <key>path</key>
+            <string>system</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SystemConfiguration.framework</string>
+            <key>path</key>
+            <string>system</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>CoreTelephony.framework</string>
+            <key>path</key>
+            <string>system</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>MobileCoreServices.framework</string>
+            <key>path</key>
+            <string>system</string>
+        </dict>
+    </array>
+</plist>

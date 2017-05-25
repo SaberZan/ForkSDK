@@ -1,0 +1,10 @@
+打包脚本：
+一.工程配置
+1. 每个渠道不同的bundel id后缀
+2. 每个渠道不同的渠道标示ID
+3. 工程显示名称 name-渠道ID
+4. 加载不同的ForkSDK文件夹
+二. ForkSDK文件夹
+1. 生成不同的icon带方向的角标  images.xcassets 文件夹下 AppIcon.appiconset-》Contents.json & icons
+2.修改 AppDelegate 文件，增加openURL方法
+3.依赖framework文件

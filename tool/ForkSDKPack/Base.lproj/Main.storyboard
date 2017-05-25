@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9059"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="ForkSDKPack" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="ForkSDKPack" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About ForkSDK" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                                <segue destination="pzC-XW-eVB" kind="modal" id="vbM-jo-2PS"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Services" id="NMo-om-nkz">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                                        <menuItem title="Hide ForkSDKPack" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit ForkSDKPack" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Window" id="aUF-d1-5bR">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Window" systemMenu="window" id="Td7-aD-5lo">
+                                    <items>
+                                        <menuItem title="Minimize" keyEquivalent="m" id="OY7-WF-poV">
+                                            <connections>
+                                                <action selector="performMiniaturize:" target="Ady-hI-5gd" id="VwT-WD-YPe"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Zoom" id="R4o-n2-Eq4">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="performZoom:" target="Ady-hI-5gd" id="DIl-cC-cCs"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="eu3-7i-yIM"/>
+                                        <menuItem title="Bring All to Front" id="LE2-aR-0XJ">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="arrangeInFront:" target="Ady-hI-5gd" id="DRN-fu-gQh"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Help" id="wpr-3q-Mcd">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                                    <items>
+                                        <menuItem title="Help www.xygame.com" keyEquivalent="?" id="FKE-Sm-Kum">
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1385.5" y="-72"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hasShadow="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA" customClass="FKWindow">
+                        <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" unifiedTitleAndToolbar="YES" fullSizeContentView="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="391" y="240" width="900" height="570"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <value key="minSize" type="size" width="900" height="570"/>
+                        <value key="maxSize" type="size" width="900" height="570"/>
+                    </window>
+                    <connections>
+                        <segue destination="bau-2A-15I" kind="relationship" relationship="window.shadowedContentViewController" id="eWO-3R-aCy"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1314" y="343"/>
+        </scene>
+        <!--My Navigateion-->
+        <scene sceneID="TvF-Da-phN">
+            <objects>
+                <viewController id="bau-2A-15I" customClass="MyNavigateion" sceneMemberID="viewController">
+                    <view key="view" id="jCQ-h3-Jrj" customClass="BaseView">
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="570"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </view>
+                </viewController>
+                <customObject id="mdC-GI-AC6" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-133" y="171"/>
+        </scene>
+        <!--pack View Controller-->
+        <scene sceneID="bh4-eK-dDB">
+            <objects>
+                <customObject id="DPE-VX-Bjt" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="PackageViewContoller" id="SBf-Uj-m6O" userLabel="pack View Controller" customClass="PackageViewContoller" sceneMemberID="viewController">
+                    <view key="view" id="nOi-8i-mLY" customClass="BaseView">
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="570"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d4w-uF-eRM">
+                                <rect key="frame" x="20" y="442" width="75" height="80"/>
+                                <animations/>
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="back_V" imagePosition="only" alignment="center" lineBreakMode="charWrapping" state="on" inset="2" id="Czf-en-ecb">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="back:" target="SBf-Uj-m6O" id="0zS-Uq-feu"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iBO-Ao-5qX">
+                                <rect key="frame" x="101" y="455" width="112" height="54"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Back" id="MKm-vd-3KJ">
+                                    <font key="font" size="26" name="Apple-Chancery"/>
+                                    <color key="textColor" red="0.2470801768" green="0.2470801768" blue="0.2470801768" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wo0-CH-AJv">
+                                <rect key="frame" x="333" y="390" width="224" height="26"/>
+                                <animations/>
+                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="没有配置渠道" placeholderString="" drawsBackground="YES" completes="NO" usesDataSource="YES" numberOfVisibleItems="9" id="EeU-ro-Od1">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </comboBoxCell>
+                            </comboBox>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BH2-UR-brU">
+                                <rect key="frame" x="232" y="392" width="93" height="25"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="打包渠道:" id="lRc-ZN-COW">
+                                    <font key="font" size="18" name="BellMT"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0G2-xf-Clm">
+                                <rect key="frame" x="333" y="345" width="224" height="26"/>
+                                <animations/>
+                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="右下角" placeholderString="" drawsBackground="YES" completes="NO" numberOfVisibleItems="4" id="4Fz-kG-AeU">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <objectValues>
+                                        <string>左上角</string>
+                                        <string>右上角</string>
+                                        <string>右下角</string>
+                                        <string>左下角</string>
+                                    </objectValues>
+                                </comboBoxCell>
+                            </comboBox>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oya-Cx-xiU">
+                                <rect key="frame" x="232" y="349" width="93" height="25"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="角标方向：" id="aoY-Wh-GUB">
+                                    <font key="font" size="18" name="BellMT"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KL7-qg-nNY">
+                                <rect key="frame" x="232" y="307" width="93" height="25"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="生成  IPA：" id="Ea6-21-9bq">
+                                    <font key="font" size="18" name="BellMT"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e1P-ca-NI0">
+                                <rect key="frame" x="331" y="305" width="31" height="23"/>
+                                <animations/>
+                                <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Qiv-Xc-xCV">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EAX-HD-6Ie">
+                                <rect key="frame" x="327" y="265" width="99" height="32"/>
+                                <animations/>
+                                <buttonCell key="cell" type="push" title="一键打包" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="bW5-s8-vnJ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="parkage:" target="SBf-Uj-m6O" id="G7y-k3-TS0"/>
+                                </connections>
+                            </button>
+                            <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="Laz-zt-tie">
+                                <rect key="frame" x="246" y="264" width="32" height="32"/>
+                                <animations/>
+                            </progressIndicator>
+                            <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" scrollerKnobStyle="dark" translatesAutoresizingMaskIntoConstraints="NO" id="bHl-dO-r65" userLabel="Task Output Area">
+                                <rect key="frame" x="234" y="20" width="587" height="232"/>
+                                <clipView key="contentView" ambiguous="YES" id="nK1-sw-d1q">
+                                    <rect key="frame" x="1" y="1" width="570" height="230"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" spellingCorrection="YES" smartInsertDelete="YES" id="M8P-gD-pIg">
+                                            <rect key="frame" x="0.0" y="0.0" width="570" height="230"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <animations/>
+                                            <color key="textColor" red="0.25490196078431371" green="0.71372549019607845" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <size key="minSize" width="570" height="230"/>
+                                            <size key="maxSize" width="615" height="10000000"/>
+                                            <attributedString key="textStorage">
+                                                <fragment>
+                                                    <mutableString key="content">            ________   _________   _____      __   _    ______   _______     __   _
+           /  _____/  / _____  /  / _   \    / / .'.'  / ____/  / ___   \   / / .'.'
+          /  /____   / /    / /  / /_) /    / /-'.'   / /___   / /   '. |  / /-'.'
+         /  _____/  / /    / /  / _  ,'    / _  |    /___  /  / /    / /  / _  |
+   __   /  /       / /____/ /  / / \ \    / / | |   ____/ /  / /___.' /  / / | |
+  / /  /__/       /________/  /_/   \_\  /_/  |_|  /_____/  /_______.'  /_/  |_|
+ / /_________________________________________________________
+/___________________________________________________________/   R   O   B   I   N</mutableString>
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.25490196078431371" green="0.71372549019607845" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="11" name="Menlo-Regular"/>
+                                                        <integer key="NSLigature" value="0"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                            <tabStops>
+                                                                <textTab alignment="left" location="26.450000762939453">
+                                                                    <options/>
+                                                                </textTab>
+                                                            </tabStops>
+                                                        </paragraphStyle>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <size key="minSize" width="570" height="230"/>
+                                            <size key="maxSize" width="615" height="10000000"/>
+                                        </textView>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </clipView>
+                                <animations/>
+                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="vRJ-Jo-KPh">
+                                    <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </scroller>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="8wx-1t-3dP">
+                                    <rect key="frame" x="571" y="1" width="15" height="230"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <animations/>
+                                </scroller>
+                            </scrollView>
+                            <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZ7-ze-k2J">
+                                <rect key="frame" x="333" y="433" width="224" height="26"/>
+                                <animations/>
+                                <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="" drawsBackground="YES" completes="NO" usesDataSource="YES" numberOfVisibleItems="9" id="4Nl-gc-IiF">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </comboBoxCell>
+                            </comboBox>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZF-bY-mXo">
+                                <rect key="frame" x="232" y="435" width="93" height="25"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="选择Target:" id="sZO-HD-mqm">
+                                    <font key="font" size="18" name="BellMT"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                    </view>
+                    <connections>
+                        <outlet property="angelType" destination="0G2-xf-Clm" id="qhI-kT-mmI"/>
+                        <outlet property="backButton" destination="d4w-uF-eRM" id="rri-5V-nZG"/>
+                        <outlet property="backText" destination="iBO-Ao-5qX" id="i2g-vX-fSo"/>
+                        <outlet property="generateIpaCheckBox" destination="e1P-ca-NI0" id="LBD-AW-agB"/>
+                        <outlet property="indicatorView" destination="Laz-zt-tie" id="OsH-cY-S5i"/>
+                        <outlet property="logTextView" destination="M8P-gD-pIg" id="xE3-Sn-6er"/>
+                        <outlet property="packButton" destination="EAX-HD-6Ie" id="wdS-kf-sNw"/>
+                        <outlet property="platformType" destination="Wo0-CH-AJv" id="NAO-zf-BeY"/>
+                        <outlet property="targetsComboBox" destination="kZ7-ze-k2J" id="Ap9-id-rKI"/>
+                        <outlet property="toBackButton" destination="d4w-uF-eRM" id="8r4-jH-9EK"/>
+                        <outlet property="toBackText" destination="iBO-Ao-5qX" id="gw0-ti-ggx"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2424" y="1260"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yfd-EI-c8D">
+            <objects>
+                <viewController storyboardIdentifier="poper" id="Nq3-9x-ixJ" sceneMemberID="viewController">
+                    <view key="view" id="0iZ-Nb-Thw">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5GW-Dc-2gk">
+                                <rect key="frame" x="47" y="95" width="203" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="开始打包" id="vOT-Vw-t63">
+                                    <font key="font" size="13" name="AdobeFangsongStd-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mt0-6C-czk">
+                                <rect key="frame" x="18" y="263" width="255" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="第一步：" id="ryK-Le-KHd">
+                                    <font key="font" size="13" name="AdobeFangsongStd-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wc0-fY-ge9">
+                                <rect key="frame" x="47" y="238" width="203" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="导入工程，导入ICON" id="f60-dv-zga">
+                                    <font key="font" size="13" name="AdobeFangsongStd-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4FP-R5-whf">
+                                <rect key="frame" x="18" y="190" width="255" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="第二步：" id="4wT-0i-duw">
+                                    <font key="font" size="13" name="AdobeFangsongStd-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFK-LA-Bpt">
+                                <rect key="frame" x="47" y="165" width="203" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="配置平台APPID,APPKey" id="DHQ-uw-HYL">
+                                    <font key="font" size="13" name="AdobeFangsongStd-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zdA-Sl-EW2">
+                                <rect key="frame" x="18" y="120" width="255" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="第二步：" id="MNv-Qu-XPt">
+                                    <font key="font" size="13" name="AdobeFangsongStd-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                    </view>
+                </viewController>
+                <customObject id="mnk-W3-Ypr" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1289" y="1913"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hIz-AP-VOD">
+            <objects>
+                <viewController storyboardIdentifier="RootViewController" id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" id="m2S-Jp-Qdl" customClass="BaseView">
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="570"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haA-ZV-Qtc">
+                                <rect key="frame" x="14" y="460" width="75" height="80"/>
+                                <animations/>
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="import_V" imagePosition="only" alignment="center" lineBreakMode="charWrapping" state="on" inset="2" id="hUh-49-GW4">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HV5-IW-LKO">
+                                <rect key="frame" x="14" y="360" width="75" height="80"/>
+                                <animations/>
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="next_V" imagePosition="only" alignment="center" lineBreakMode="charWrapping" state="on" inset="2" id="skX-HU-ZAi">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K4f-SE-pwT">
+                                <rect key="frame" x="297" y="132" width="307" height="307"/>
+                                <animations/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="main_icon" id="y9L-Dp-nju"/>
+                            </imageView>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UNK-bk-wUW">
+                                <rect key="frame" x="302" y="132" width="300" height="300"/>
+                                <animations/>
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="+_normal" imagePosition="overlaps" alignment="center" enabled="NO" imageScaling="axesIndependently" inset="2" id="UdL-Y1-6aR">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t2Z-Xc-H0B">
+                                <rect key="frame" x="95" y="465" width="112" height="54"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Import" id="pgO-jL-1QI">
+                                    <font key="font" size="26" name="Apple-Chancery"/>
+                                    <color key="textColor" red="0.2470801767676768" green="0.2470801767676768" blue="0.2470801767676768" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NFw-0I-wND">
+                                <rect key="frame" x="95" y="373" width="112" height="54"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Next" id="S48-E5-eh6">
+                                    <font key="font" size="26" name="Apple-Chancery"/>
+                                    <color key="textColor" red="0.2470801768" green="0.2470801768" blue="0.2470801768" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eFI-rm-9U8">
+                                <rect key="frame" x="213" y="541" width="474" height="24"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="请选择或者拖拽你的工程" id="S0O-N9-fex">
+                                    <font key="font" size="16" name="AdobeFangsongStd-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Td0-Nm-Ip4">
+                                <rect key="frame" x="857" y="11" width="25" height="25"/>
+                                <animations/>
+                                <buttonCell key="cell" type="help" bezelStyle="helpButton" imagePosition="left" alignment="left" state="on" borderStyle="border" inset="2" id="KEJ-hC-aob">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <animations/>
+                    </view>
+                    <connections>
+                        <outlet property="addFileButton" destination="UNK-bk-wUW" id="VeR-Oa-FwO"/>
+                        <outlet property="exportButton" destination="haA-ZV-Qtc" id="xwM-Nu-i2h"/>
+                        <outlet property="helpButton" destination="Td0-Nm-Ip4" id="2Gr-nS-cCZ"/>
+                        <outlet property="imageButton" destination="UNK-bk-wUW" id="fSq-IT-Fdl"/>
+                        <outlet property="importText" destination="t2Z-Xc-H0B" id="OyT-W7-yqV"/>
+                        <outlet property="nextButton" destination="HV5-IW-LKO" id="ZDh-md-M7j"/>
+                        <outlet property="nextText" destination="NFw-0I-wND" id="YuW-Gd-oRS"/>
+                        <outlet property="titleText" destination="eFI-rm-9U8" id="n9L-ZW-glk"/>
+                    </connections>
+                </viewController>
+                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-46" y="1276"/>
+        </scene>
+        <!--ForkSDK-->
+        <scene sceneID="zft-i3-SAd">
+            <objects>
+                <viewController title="ForkSDK" storyboardIdentifier="about" id="pzC-XW-eVB" sceneMemberID="viewController">
+                    <view key="view" id="cz6-ke-rcW">
+                        <rect key="frame" x="0.0" y="0.0" width="427" height="247"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wvw-K5-fL6">
+                                <rect key="frame" x="141" y="117" width="145" height="25"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="玄云打包工具" id="fUS-Gd-bYi">
+                                    <font key="font" size="17" name="CourierNewPSMT"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hh-8B-vpT">
+                                <rect key="frame" x="37" y="24" width="352" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Copyright © 2014-2020 xygame.com All rights reserved. " id="4Tl-gJ-kKj">
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j4Z-MF-U8X">
+                                <rect key="frame" x="179" y="158" width="69" height="69"/>
+                                <animations/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="ForkSDKPack" id="dMN-RK-82T"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3Y-ip-s39">
+                                <rect key="frame" x="133" y="46" width="160" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="上海玄云网络科技有限公司" id="ee8-Rc-QNK">
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NFc-7e-xXW">
+                                <rect key="frame" x="133" y="92" width="160" height="17"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Version 1.0.1" id="GbY-rF-tdT">
+                                    <font key="font" size="13" name="STHeitiSC-Light"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                    </view>
+                </viewController>
+                <customObject id="Qid-uH-6DU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2115.5" y="92.5"/>
+        </scene>
+        <!--Configuration View Controller-->
+        <scene sceneID="wCd-ig-Nvt">
+            <objects>
+                <customObject id="cXt-wV-shG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="ConfigurationViewController" id="Pr2-eB-pAM" customClass="ConfigurationViewController" sceneMemberID="viewController">
+                    <view key="view" id="k1M-cx-YkN" customClass="BaseView">
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="570"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RL5-XJ-lqt">
+                                <rect key="frame" x="14" y="431" width="75" height="80"/>
+                                <animations/>
+                                <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="back_V" imagePosition="only" alignment="center" lineBreakMode="charWrapping" state="on" inset="2" id="4gE-79-joF">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="back:" target="Pr2-eB-pAM" id="3dH-Xq-1Ym"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s66-gX-pzH">
+                                <rect key="frame" x="95" y="444" width="112" height="54"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Back" id="NcS-wP-781">
+                                    <font key="font" size="26" name="Apple-Chancery"/>
+                                    <color key="textColor" red="0.2470801768" green="0.2470801768" blue="0.2470801768" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pU9-xd-OuT">
+                                <rect key="frame" x="505" y="-117" width="82" height="32"/>
+                                <animations/>
+                                <buttonCell key="cell" type="push" title="确定" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mhe-Ty-XyF">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IZO-9i-Gsg">
+                                <rect key="frame" x="280" y="307" width="164" height="21"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="玄云游戏账户：" id="7px-zu-jwe">
+                                    <font key="font" size="20" name=".PingFangSC-Regular"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tEe-ZS-0S2">
+                                <rect key="frame" x="409" y="170" width="83" height="25"/>
+                                <animations/>
+                                <buttonCell key="cell" type="roundTextured" title="确定" bezelStyle="texturedRounded" alignment="center" borderStyle="border" inset="2" id="kvg-pO-jmi">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="menuAction:" target="Pr2-eB-pAM" id="OGF-Pi-zJB"/>
+                                </connections>
+                            </button>
+                            <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="UW2-tr-1PM">
+                                <rect key="frame" x="434" y="167" width="32" height="32"/>
+                                <animations/>
+                            </progressIndicator>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3uj-hn-d77">
+                                <rect key="frame" x="282" y="263" width="336" height="22"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="请输入玄云游戏APPID" drawsBackground="YES" id="4Jc-HW-NqV">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SST-Bw-wEl">
+                                <rect key="frame" x="282" y="229" width="336" height="22"/>
+                                <animations/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="请输入玄云游戏APPKEY" drawsBackground="YES" id="ell-bX-ihI">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                    </view>
+                    <connections>
+                        <outlet property="appIdInputView" destination="3uj-hn-d77" id="DVC-md-xbR"/>
+                        <outlet property="appKeyInputView" destination="SST-Bw-wEl" id="vpA-Ij-akR"/>
+                        <outlet property="indicatorView" destination="UW2-tr-1PM" id="nFi-An-Dfj"/>
+                        <outlet property="toBackButton" destination="RL5-XJ-lqt" id="rRK-yx-A9f"/>
+                        <outlet property="toBackText" destination="s66-gX-pzH" id="J3j-Uu-ERt"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1190" y="1308"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="+_normal" width="405" height="411"/>
+        <image name="ForkSDKPack" width="512" height="512"/>
+        <image name="back_V" width="67" height="77"/>
+        <image name="import_V" width="78" height="94"/>
+        <image name="main_icon" width="147.45599365234375" height="147.45599365234375"/>
+        <image name="next_V" width="67" height="77"/>
+    </resources>
+</document>

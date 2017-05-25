@@ -1,0 +1,15 @@
+//
+//  ForkSDKPack-Prefix.pch
+//  ForkSDKPack
+//
+//  Created by ruikong on 15/8/11.
+//  Copyright (c) 2015年 xuanyun Technology. All rights reserved.
+//
+
+#ifndef ForkSDKPack_ForkSDKPack_Prefix_pch
+#define ForkSDKPack_ForkSDKPack_Prefix_pch
+
+#import <Cocoa/Cocoa.h>
+#import "NSNavigationController.h"
+
+#endif
